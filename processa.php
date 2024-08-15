@@ -10,5 +10,11 @@
     echo "Senha do usuário: $senha_usuario<br>";
 
     echo "<br>";
-    
+    echo "<br>";
+    $dados - filter_input_array(INPUT_POST, FILTER_DEFAULT);
+    var_dump($dados);
+
+    echo "Nome do usuário: ".$dados['nome_usuario']. "<br><br>";
+    echo "Email do usuário: "  .$dados['email_usuario']. "<br><br>";
+    echo "Senha do usuário:" .$dados['senha_usuario']. "<br><br>";
 ?>
