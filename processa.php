@@ -10,7 +10,6 @@
     echo "Senha do usuário: $senha_usuario<br>";
 
     echo "<br>";
-    echo "<br>";
     $dados - filter_input_array(INPUT_POST, FILTER_DEFAULT);
     var_dump($dados);
 
